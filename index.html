@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Docytee Research Laboratory</title>
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark border-bottom">
+      <div class="container-fluid my-2">
+        <a class="navbar-brand" href="index.html">Docytee R&D Lab</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mynavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/our_services.html"
+                >OUR SERVICES</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/about_us.html">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/contact_us.html">CONTACT US</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search" />
+            <button class="btn btn-success" type="button">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <section class="home_section">
+      <!-- Carousel -->
+      <div id="docylab" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#docylab"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#docylab"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#docylab"
+            data-bs-slide-to="2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#docylab"
+            data-bs-slide-to="3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#docylab"
+            data-bs-slide-to="4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#docylab"
+            data-bs-slide-to="5"
+          ></button>
+        </div>
+        <!-- slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="img">
+              <img
+                src="images/Analytical and Quality Laboratory.jpg"
+                alt="Analytical Lab"
+                class="d-block w-100"
+              />
+            </div>
+            <div class="carousel-caption">
+              <h1 class="text-light">Analytical and Quality Laboratory</h1>
+              <a
+                class="btn btn-success text-light"
+                href="/pages/our_services.html"
+                >Read more</a
+              >
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="img">
+              <img
+                src="images/Biosafety Laboratory.jpg"
+                alt="Biosafety Lab"
+                class="d-block w-100"
+              />
+            </div>
+            <div class="carousel-caption">
+              <h1 class="text-light">Biosafety Laboratory</h1>
+              <a
+                class="btn btn-success text-light"
+                href="/pages/our_services.html"
+                >Read more</a
+              >
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="img">
+              <img
+                src="images/Cleanroom Laboratory.jpg"
+                alt="Cleanroom Lab"
+                class="d-block w-100"
+              />
+            </div>
+            <div class="carousel-caption">
+              <h1 class="text-light">Cleanroom Laboratory</h1>
+              <a
+                class="btn btn-success text-light"
+                href="/pages/our_services.html"
+                >Read more</a
+              >
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="img">
+              <img
+                src="images/Clinical and Medical Laboratory.jpg"
+                alt="Clinical & Medical Lab"
+                class="d-block w-100"
+              />
+            </div>
+            <div class="carousel-caption">
+              <h1 class="text-light">Clinical and Medical Laboratory</h1>
+              <a
+                class="btn btn-success text-light"
+                href="/pages/our_services.html"
+                >Read more</a
+              >
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="img">
+              <img
+                src="images/Incubator Laboratory.jpg"
+                alt="Incubator Lab"
+                class="d-block w-100"
+              />
+            </div>
+            <div class="carousel-caption">
+              <h1 class="text-light">Incubator Laboratory</h1>
+              <a
+                class="btn btn-success text-light"
+                href="/pages/our_services.html"
+                >Read more</a
+              >
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="img">
+              <img
+                src="images/Production Laboratory.jpg"
+                alt="Production Lab"
+                class="d-block w-100"
+              />
+            </div>
+            <div class="carousel-caption">
+              <h1 class="text-light">Production Laboratory</h1>
+              <a
+                class="btn btn-success text-light"
+                href="/pages/our_services.html"
+                >Read more</a
+              >
+            </div>
+          </div>
+
+          <!-- Left and right controls/icons -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#docylab"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#docylab"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Middle section-->
+      <div class="container-fluid row bg-light p-2 p-sm-5 mx-0">
+        <div class="col-sm welcome">
+          <h1>Welcome to Docytee Research Group.</h1>
+          <p>
+            Docytee Research Group is a non-governmental organization in Ejigbo,
+            Osun State, Nigeria. It was established on 14<sup>th</sup> June,
+            2002. The objective for its establishment is to give effect to the
+            world's drive for the much-needed research in science, engineering
+            and especially technology.
+          </p>
+        </div>
+        <div class="col-sm vision">
+          <h1>Our Vision.</h1>
+          <p>
+            To become a world class and world's leading academic research
+            website, recognized for its excellence in transformative discoveries
+            and innovation.
+          </p>
+        </div>
+        <div class="col-sm mission">
+          <h1>Our Mission.</h1>
+          <p>
+            The mission of Docytee Research Group is to advance world-class
+            research and innovation across the entire world. We provide the word
+            with comprehensive, solution-oriented servoce and infrastructure to
+            support research, dissemination and translation of discoveries to
+            minimize impact. </p>
+          </p>
+        </div>
+      </div>
+
+      <!-- Lower section-->
+      <div class="container-fluid row bg-dark text-light p-5 mx-0">
+        <div class="col">
+          <h1>Research</h1>
+          <address>
+            21, titilope group of schools, <br>
+            Behind Post-Office, <br>
+            Beaulah Area, <br>
+            Ejigbo, <br>
+            Osun State.
+          </address>
+        </div>
+
+        <div class="col">
+          <h1>Quick Links</h1>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link text-light" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="pages/our_services.html">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="pages/about_us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="pages/contact_us.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h1>Contact Us</h1>
+          <p class="mt-3">Send us a message</p>
+          <span>+2348125252525</span> <br>
+          <span class="col h4">
+              <a class="text-light me-2" href="#" target="_blank"
+              ><i class="fa-brands fa-google-plus-square"></i
+            ></a>
+            <a class="text-light me-2" href="#" target="_blank"
+              ><i class="fa-brands fa-facebook-square"></i
+            ></a>
+            <a class="text-light me-2" href="#" target="_blank"
+              ><i class="fa-brands fa-twitter-square"></i
+            ></a>
+            <a class="text-light me-2" href="#" target="_blank"
+              ><i class="fa-brands fa-instagram-square"></i
+            ></a>
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <footer class="border-top bg-dark text-light">
+      <div class="container-fluid text-center">
+        <span class="mt-2">Designed by Docytee</span>
+        <span class="mx-3 mt-2">© 2023</span>
+        <span class="col h4">
+          <a class="text-light me-2" href="#" target="_blank"
+            ><i class="fa-brands fa-google-plus-square"></i
+          ></a>
+          <a class="text-light me-2" href="#" target="_blank"
+            ><i class="fa-brands fa-facebook-square"></i
+          ></a>
+          <a class="text-light me-2" href="#" target="_blank"
+            ><i class="fa-brands fa-twitter-square"></i
+          ></a>
+          <a class="text-light me-2" href="#" target="_blank"
+            ><i class="fa-brands fa-instagram-square"></i
+          ></a>
+          <a class="text-light me-2" href="#" target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a class="text-light" href="#" target="_blank"
+            ><i class="fa-brands fa-telegram"></i
+          ></a>
+        </span>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

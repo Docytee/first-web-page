@@ -1,0 +1,64 @@
+/* for nav links hover */
+#mynavbar .nav-item a:hover {
+  background-color: #157347;
+  color: #fff;
+  border-color: #146c43;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+/* for opacity on faded div on carousel and position of caption */
+.carousel-inner .carousel-item .img::before {
+  opacity: 0.8;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.carousel-inner .carousel-item .carousel-caption {
+  position: absolute;
+  top: 35%;
+}
+
+/* for our vision, our mission */
+.home_section div .welcome h1,
+.home_section div .vision h1,
+.home_section div .mission h1 {
+  text-align: center;
+}
+
+.home_section div .welcome p,
+.home_section div .vision p,
+.home_section div .mission p {
+  text-align: justify;
+}
+
+/* MQ for carousel */
+@media only screen and (max-width:500px) {
+  .carousel-inner .carousel-item .carousel-caption {
+    top: 20%;
+  }
+
+  .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size: 20px;
+  }
+
+    .carousel-inner .carousel-item .carousel-caption {
+    top: 15%;
+  }
+}
+
